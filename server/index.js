@@ -372,6 +372,7 @@ app.post('/status', async (req, res) => {
         console.log(response.data);
 
         res.json(response.data);
+        // phonepay-getway
 
     } catch (error) {
         console.error('Error checking payment status:', error);
